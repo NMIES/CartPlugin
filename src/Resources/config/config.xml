@@ -8,7 +8,7 @@
         <input-field type="colorpicker">
             <name>cartBackgroundColor</name>
             <label>Hintergrundfarbe nachdem ein Artikel hinzugefügt wurde</label>
-            <defaultValue>grey</defaultValue>
+            <defaultValue>#808080</defaultValue>
         </input-field>
     </card>
 
