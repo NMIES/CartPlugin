@@ -2,6 +2,9 @@
 
 {% block base_main_inner %}
     {{ parent() }}
-
     <template cart-plugin></template>
+    <script>
+        const userBackgroundColor =  '{{ config('CartPlugin.config.cartBackgroundColor')}}';
+        const userText =  '{{ config('CartPlugin.config.cartText')}}';
+    </script>
 {% endblock %}
