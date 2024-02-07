@@ -1,6 +1,6 @@
 import Plugin from 'src/plugin-system/plugin.class';
 
-export default class ExamplePlugin extends Plugin {
+export default class CartPlugin extends Plugin {
     init() {
         window.addEventListener('scroll', this.onScroll.bind(this));
     }
